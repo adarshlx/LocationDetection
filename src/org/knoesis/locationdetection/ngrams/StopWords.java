@@ -1,11 +1,12 @@
-package org.knoesis.ngrams;
+package org.knoesis.locationdetection.ngrams;
 
 import java.util.Arrays;
 
 /*****
  * 
  * @author pavan
- * StopWords taken from http://jmlr.csail.mit.edu/papers/volume5/lewis04a/a11-smart-stop-list/english.stop
+ * StopWords taken from 
+ * http://jmlr.csail.mit.edu/papers/volume5/lewis04a/a11-smart-stop-list/english.stop
  * Tests whether the String is a stopword or not
  * 
  * This class is a singleton

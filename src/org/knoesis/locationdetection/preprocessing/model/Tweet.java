@@ -1,26 +1,47 @@
 package org.knoesis.locationdetection.preprocessing.model;
 
+import java.util.Date;
+
 public class Tweet {
 
-			String twitter_ID;
-			String tweet;
-			double latitude;
-			double longitude;
-			String country;
-			String language;
-			String city;
-			String state;
+			String twitter_ID = "";
+			String tweet = "";
+			double latitude = 0;
+			double longitude = 0;
+			String country = "";
+			String language = "";
+			String city = "";
+			String state = "";
 			
+			Date createdDate = null;
+			Date loadingDate = null;
+			String screenName = "";
+			String userName = "";
+			/**
+			 * Location - information from the user profile. Country, city, state are derived from the latitude and longitude
+			 */
+			String location ="";
+			boolean geoEnabled = false;
+			String userId = "";
 								
 			public Tweet(String twitter_ID, String tweet, double latitude, double longitude) {
 					this.twitter_ID = twitter_ID;
 					this.tweet = tweet;
 					this.latitude = latitude;
-					this.longitude = longitude;
-					this.country = "";
-					this.language = "";
-					this.city = "";
-					this.state = "";					
+					this.longitude = longitude;						
+			}
+			
+			public Tweet(String twitter_ID, Date createdDate, Date loadingDate, String tweet, String userId, 
+					String userName, String screenName, String location, boolean geoEnabled) {
+					this.twitter_ID = twitter_ID;
+					this.createdDate = createdDate;
+					this.loadingDate = loadingDate;
+					this.tweet = tweet;
+					this.userId = userId;
+					this.userName = userName;
+					this.screenName = screenName;
+					this.location = location;
+					this.geoEnabled = geoEnabled;
 			}
 			
 			public String getTwitterID() {
@@ -70,4 +91,33 @@ public class Tweet {
 			public String getCity() {
 					return this.city;
 			}
+			
+			public Date getTweetCreatedDate() {
+				return this.createdDate;
+			}
+			
+			public Date getLoadingDate() {
+					return this.loadingDate;
+			}
+			
+			public String getUserId() {
+				return this.userId;
+			}
+			
+			public String getUserName() {
+					return this.userName;
+			}
+			
+			public String getScreenName() {
+					return this.screenName;
+			}
+			
+			public String getLocation() {
+					return this.location;
+			}
+			
+			public boolean getGeoEnabledFlag() {
+					return this.geoEnabled;
+			}
+
 }

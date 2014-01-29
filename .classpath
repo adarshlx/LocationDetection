@@ -2,13 +2,13 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="/home/revathy/LocDetection/LocationDetection/lib/org.json-20120521.jar"/>
-	<classpathentry kind="lib" path="/home/revathy/LocDetection/LocationDetection/lib/mysql-connector-java-5.1.22-bin.jar"/>
-	<classpathentry kind="lib" path="/home/revathy/LocDetection/LocationDetection/lib/log4j-1.2.17.jar"/>
-	<classpathentry kind="lib" path="/home/revathy/LocDetection/LocationDetection/lib/langdetect.jar"/>
-	<classpathentry kind="lib" path="/home/revathy/LocDetection/LocationDetection/lib/jsonic-1.2.7.jar"/>
-	<classpathentry kind="lib" path="/home/revathy/LocDetection/LocationDetection/lib/commons-collections-3.2.1.jar"/>
-	<classpathentry kind="lib" path="/home/revathy/LocDetection/LocationDetection/lib/weka.jar"/>
-	<classpathentry kind="lib" path="/home/revathy/LocDetection/LocationDetection/lib/twitter4j-core-3.0.5.jar"/>
+	<classpathentry kind="lib" path="/home/adarsh/git/org.json-20120521.jar"/>
+	<classpathentry kind="lib" path="/home/adarsh/git/mysql-connector-java-5.1.22-bin.jar"/>
+	<classpathentry kind="lib" path="/home/adarsh/git/apache-log4j-1.2.17/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="/home/adarsh/git/language-detection-87ea835f3bfb/lib/langdetect.jar"/>
+	<classpathentry kind="lib" path="/home/adarsh/git/jsonic-1.2.7.jar"/>
+	<classpathentry kind="lib" path="/home/adarsh/git/commons-collections-3.2.1/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="/home/adarsh/git/commons-collections-3.2.1/weka-3-6-10/weka.jar"/>
+	<classpathentry kind="lib" path="/home/adarsh/git/twitter4j-3.0.5/lib/twitter4j-core-3.0.5.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
